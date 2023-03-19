@@ -1,0 +1,23 @@
+{
+  "name": "termyt_withdraw_netlify_serverless_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.1.0",
+    "express": "^4.18.2",
+    "netlify-cli": "^13.1.6",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
