@@ -17,5 +17,3 @@ app.listen(PORT, err => {
         console.log(`Connection to server on port ${PORT} was successful.`)
     }
 });
-
-module.exports = app;
